@@ -7,9 +7,17 @@ body {
   background-attachment: fixed;
 }
 
+.grid {
+  margin: 4rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
 label {
-  color: red;
+  color: yellow;
   padding: 8px;
+  font-style: oblique;
 }
 
 h1 {
